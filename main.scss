@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+$font-family-second: 'Ubuntu', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+body {
+   background-color: white;
+   font-size: 16px;
+   font-family: 'Overpass', sans-serif;
+   main {
+    //    background-color: red;
+        header {
+            background-color: rgb(255, 82, 93);
+            height: 50vh;
+            border-bottom-left-radius: 100px;
+            .navbar {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                    // align-items: flex-end;
+                &-container {
+                    margin: 20px;
+                    width: auto;
+                    display: flex;
+                    flex-direction: row;
+                    &-list {
+                        background: yellow;
+                        display: flex;
+                        flex-direction: row;
+                        // width: 80%;
+                        &-div{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            img{
+                                width: 90px;
+                                height: 40px;
+                            }
+                            &-item {
+                                margin: 0 80px;
+                            }
+                        }
+                        &-log {
+                            background: green;
+                            display: flex;
+                            flex-direction: row;
+                            // margin-left: 20px;
+                            
+                        }
+                    }
+                }
+            }
+            .header-container {
+                margin: 100px;
+                background: grey;
+            }
+        }
+       
+       .footer {
+            background: hsl(240, 10%, 16%);
+       }
+   }
+   
+}
